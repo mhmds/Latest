@@ -1,0 +1,47 @@
+body
+{
+	background-color:#F2F2F2;
+	color:#000305;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#nav
+{
+	float:left;
+	width:25%;
+}
+#article
+{
+	float:left;
+}
+#table
+{
+
+}
+#nav, #specs, #article, #table
+{
+	display:inline;
+	
+}
+table  /*must allign text and table on page*/
+{
+	float:right;
+	color:black;
+	border:1px solid;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+table,th,td
+{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+th,td
+{
+	padding:5px;
+}
+	caption
+	{
+		font-size:30px;
+		color:#990000;
+	}
